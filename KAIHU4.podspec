@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.authors = { "yanghaohao1991" => "971274029@qq.com" }
   s.platform     = :ios, "7.0"
   s.source = { :git => "https://github.com/yanghaohao1991/KAIHU4.git", :tag => "1.0.3"}
-  s.source_files  = "YWPageControl/**/*.{h,m}"
+  s.source_files  = "YWPageControl", "*.{h,m}"
   s.framework  = "UIKit"
   # s.frameworks = "SomeFramework", "AnotherFramework"
   end
