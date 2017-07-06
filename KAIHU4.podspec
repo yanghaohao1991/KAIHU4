@@ -9,5 +9,5 @@ s.source = { :git => "https://github.com/yanghaohao1991/KAIHU4.git", :tag => "1.
 s.requires_arc = true
 s.ios.deployment_target = '8.0'
 s.frameworks = 'UIKit', 'Foundation'    #所需的framework,多个用逗号隔开
-s.source_files = "ZYKeyboardUtil", "*.{h,m}"
+s.source_files = "YWPageControl", "*.{h,m}"
 end
