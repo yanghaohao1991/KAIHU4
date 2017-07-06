@@ -20,9 +20,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "7.0"            #支持的平台及版本，这里我们呢用swift，直接上9.0
   s.requires_arc = true                    #是否使用ARC
-
-  s.source_files = "ZYKeyboardUtil", "*.{h,m}"
-
+  s.source_files = "ZYKeyboardUtil/*.{h,m}"
   s.frameworks = 'UIKit', 'Foundation'    #所需的framework,多个用逗号隔开
   s.module_name = 'KAIHU4'                #模块名称
 
