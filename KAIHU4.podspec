@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
-s.name = "KAIHU4"
-s.version = "1.0.3"
-s.license = "MIT"
-s.summary = "A Text in iOS."
-s.homepage = "https://github.com/yanghaohao1991/KAIHU4"
-s.authors = { "yanghaohao1991" => "971274029@qq.com" }
-s.source = { :git => "https://github.com/yanghaohao1991/KAIHU4.git", :tag => "1.0.3"}
-s.requires_arc = true
-s.ios.deployment_target = "8.0"
-s.frameworks = "UIKit"    #所需的framework,多个用逗号隔开
-s.source_files = "YWPageControl", "*.{h,m}"
-end
+  s.name         = "KAIHU4"
+  s.version      = "1.0.4"
+  s.summary      = "photo browser for ios."
+  s.homepage     = "https://github.com/yanghaohao1991/KAIHU4"
+  s.license      = "MIT"
+  s.authors = { "yanghaohao1991" => "971274029@qq.com" }
+  s.platform     = :ios, "7.0"
+  s.source = { :git => "https://github.com/yanghaohao1991/KAIHU4.git", :tag => "1.0.3"}
+  s.source_files  = "YWPageControl", "YWPageControl/**/*.{h,m}"
+  s.framework  = "UIKit"
+  # s.frameworks = "SomeFramework", "AnotherFramework"
+  end
