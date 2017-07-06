@@ -1,29 +1,12 @@
 Pod::Spec.new do |s|
-  s.name         = "KAIHU4"                #名称
-  s.version      = "1.0.2"                #版本号
-  s.summary      = "A Text in iOS."        #简短介绍
-  s.description  = <<-DESC
-                      私有Pods测试
-                      * Markdown 格式
-                   DESC
-
-  s.homepage     = "https://github.com/yanghaohao1991/KAIHU4"
-  # s.screenshots  = "www.example.com/screenshots_1.gif"
-  s.license      = "MIT"                #开源协议
-  s.author             = { "yanghaohao1991" => "971274029.com" }
-
-  s.source = { :git => "https://github.com/yanghaohao1991/KAIHU4.git", :tag => "1.0.2"}
-  ## 这里不支持ssh的地址，只支持HTTP和HTTPS，最好使用HTTPS
-  ## 正常情况下我们会使用稳定的tag版本来访问，如果是在开发测试的时候，不需要发布release版本，直接指向git地址使用
-  ## 待测试通过完成后我们再发布指定release版本，使用如下方式
-  #s.source       = { :git => "https://github.com/yanghaohao1991/KAIHU4.git", :tag => version }
-
-  s.platform     = :ios, "7.0"            #支持的平台及版本，这里我们呢用swift，直接上9.0
-  s.requires_arc = true                    #是否使用ARC
-  s.source_files = "ZYKeyboardUtil/*.{h,m}"
-  s.frameworks = 'UIKit', 'Foundation'    #所需的framework,多个用逗号隔开
-  s.module_name = 'KAIHU4'                #模块名称
-
-  # s.dependency "JSONKit", "~> 1.4"    #依赖关系，该项目所依赖的其他库，如果有多个可以写多个 s.dependency
-
+s.name = 'KAIHU4'
+s.version = '1.0.2'
+s.license = 'MIT'
+s.summary = 'A Text in iOS.'
+s.homepage = 'https://github.com/yanghaohao1991/KAIHU4'
+s.authors = { 'yanghaohao1991' => '971274029@qq.com' }
+s.source = { :git => "https://github.com/yanghaohao1991/KAIHU4.git", :tag => "1.0.2"}
+s.requires_arc = true
+s.ios.deployment_target = '7.0'
+s.source_files = "ZYKeyboardUtil", "*.{h,m}"
 end
