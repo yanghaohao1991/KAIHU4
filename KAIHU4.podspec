@@ -9,5 +9,4 @@ Pod::Spec.new do |s|
   s.source = { :git => "https://github.com/yanghaohao1991/KAIHU4.git", :tag => "1.0.4"}
   s.source_files  = "YWPageControl", "*.{h,m}"
   s.framework  = "UIKit"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
   end
